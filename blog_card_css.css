@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.blog-card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    transition: transform 0.3s ease-in-out;
+}
+
+.blog-card:hover {
+    transform: scale(1.1);
+}
+
+.blog-image {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.read-more-btn {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+}
+
+/*Footer Css*/
+footer {
+    background-color: #999999;
+    color: black;
+    padding: 10px 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-section h3 {
+    color: #404040;
+}
+
+.footer-section h3:hover {
+    color: #1a1a1a;
+}
+
+
+.footer-section p {
+    color: #404040;
+}
+
+.footer-section p:hover {
+    color: #1a1a1a;
+}
+
+
+/*Connect Us CSS*/
+.social-icons  {
+    padding: 0;
+  }
+.social-icons li {
+    display: inline-block;
+    padding: 0;
+  }
+.social-icons a {
+    color: black;
+    text-decoration: none;
+    padding: 0;
+}
+.social-icons li:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/*Icon CSS*/
+.fa {
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color: black;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: white;
+}
+
+/* Footer Bottom- copyright*/
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    color: blue;
+}
+
+.footer-bottom a {
+    color: blue;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}

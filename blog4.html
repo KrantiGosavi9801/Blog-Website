@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="Image/5g_icon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>Blog No: 4</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="leftcolumn">
+
+            <div class="header">
+                <h3>Blog Title 4: Insight on Green Network Security in 5G.</h3>
+            </div>
+            <div class=" fakeimg">
+                <img class="blog-image" src="Image/5g_4.jpg">
+            </div>
+            <div class="card">
+                <h2>Insight on Green Network Security in 5G.</h2>
+                <h3>Ercin Torun <br> February 27, 2023</h3>
+
+                <p class="para">
+                    With the evolution of LTE, 5G and Cloud, many new use cases emerged, from video-centric high-bandwidth consuming, traffic generating applications (5G use case: eMBB, live streaming, mobile healthcare), to massive IOT with billions of devices (5G use case:
+                    mMTC, smart meters...). All these “beyond connectivity” use cases make the user plane traffic become the key element of value-added services such as IOT or AR to name a few. The increase of user-plane traffic and number of devices
+                    requires high-performance processing in the network, which in turn translate to higher energy consumption. Ever-growing energy prices and infrastructure size led by these “beyond connectivity” services and traffic are severely impacting
+                    the balance sheet of the Telco Operators.</p>
+                <p class="para">
+                    <h2>What is Security Gateway?</h2>
+                    For the 4G/5G RAN, Operators are in the process of deploying tens of thousands of radio sites to enable new services, and to handle the ever expanding traffic loads. Smaller cell sites with limited physical security, unlike the aggregation and core sites,
+                    are the most vulnerable points of a mobile network. The growing number of small cell deployments (femtocell, picocell, microcell eNBs, gNBs) increases the risk of breaches like rogue radio connections and man-in-the-middle (MiTM) attacks.<br>                    Owing to the fact that all IP-based networks (including mobile backhauls) have a risk of exposing mobile core elements to IP based attacks and exploitation, the Third-Generation Partnership Project (3GPP), defined specifications to
+                    protect 5G and 4G mobile packet core and RAN networks like IPSec encryption of signaling and user-plane traffic of S1/X2 and N2/N3 interfaces.<br> Today, Operators are implementing IPSec functionality using Security Gateways (SecGWs)
+                    with different deployment types based on their topologies and service needs to preserve data integrity, confidentiality and authentication, to prevent attacks and to protect 5G/4G mobile packet core and RAN networks.<br>
+                </p>
+                <p class="para">
+                    <h2>What is Carrier-Grade NAT? </h2>
+                    The exponential growth of cloud services, and connected devices and subscribers, in part due to the Internet of Things (IoT) ubiquity, is taking its toll on the availability of global IPv4 addresses making it impossible or too expensive for operators
+                    to buy or lease IPv4 addresses. Network Address Translation (NAT) solutions that decrease the need for the number of public IP addresses by sharing it among private IP addresses, are now the de facto feature for Service Providers against
+                    the IPv4 depletion threat to business continuity and growth, providing a short-term safety margin for the long-term plans to migrate to a IPv6 infrastructure. However, even on full IPv6 architectures, carrier-grade network address
+                    translation (CGNAT) will still be required in order to avoid the direct exposure of end-devices and customers to external threats.<br>Due to the sheer number of connected devices, this approach requires a solution
+                    with purpose-built Carrier-Grade IPv4/v6 Network service appliances, physical or virtual, with a robust set of CGNAT capabilities like Fortinet’s FortiGate Series.
+                    <p class="para">
+                        <h2>SECGW & CGNAT Use Cases with Fortinet FortiGate & Savings Validated by NEC 5G Transport Network CoE</h2>
+                        NEC has been working with Fortinet to advance the network security in the 5G era and as a global system integrator, implementing FortiGate for SECGW and CGNAT purposes for many large global Operators.<br>Fortinet’s FortiGate appliances
+                        have a strong advantage regarding power consumption and rack space per GB/s of bandwidth because of their use of NP7 ASICs. At the laboratory of 5G Transport Network Center of Excellence (CoE), NEC has compared the power consumption
+                        of FortiGate against the appliances of other vendors using publicly available data from their data sheets.
+
+                    </p>
+                </p>
+            </div>
+
+        </div>
+        <div class="rightcolumn">
+            <div class="card" style="margin-top: 0px;">
+                <button id="myButton">Home</button>
+            </div>
+            <div class="card" style="margin-top: 0px;">
+                <h2>About Author</h2>
+                <div class="fakeimg" style="background-color: #ccc;">
+                    <img class="blog-image" src="Image/user.png">
+                </div>
+                <p style="text-align: center;"><b>Ercin Torun</b><br>Transport Solutions Architect</p>
+            </div>
+
+            <div class="card">
+                <h2>Related Blogs</h2>
+                <div class="blog-card">
+                    <img class="blog-image" src="Image/5g_3.jpg" alt="Blog 3 Image" onclick="location.href='blog3.html';">
+                    <h2>Blog Title 3: Beyond 5G: The new era of connectivity.</h2>
+                    <p>Date: July 7, 2023</p>
+                    <p>Author: Ken Nagai</p>
+                    <a class="read-more-btn" href="blog3.html">Read More</a>
+                </div>
+                <div class="blog-card">
+                    <img class="blog-image" src="Image/5g_5.jpg" alt="Blog 5 Image" onclick="location.href='blog5.html';">
+                    <h2>Blog Title 5: Discover the real 5G.</h2>
+                    <p>Date: December 22, 2021</p>
+                    <p>Author: Patrick Lopez</p>
+                    <a class="read-more-btn" href="blog5.html">Read More</a>
+                </div>
+                <div class="blog-card">
+                    <img class="blog-image" src="Image/5g_6.jpg" alt="Blog 6 Image" onclick="location.href='blog6.html';">
+                    <h2>Blog Title 6: 5GS-WiFi(ePDG) Calling/ Offloading Aspects.</h2>
+                    <p>Date: July 11, 2020</p>
+                    <p>Author: Sushobhit Goyal</p>
+                    <a class="read-more-btn" href="blog6.html">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3 style="text-align: center">Connect With Us</h3>
+                <ul class="social-icons">
+                        <!-- <a href="#" class="fa fa-instagram"></a><br> -->
+                        <a href="https://www.linkedin.com/in/krantigirigosavi9801" class="fa fa-linkedin" ></a> 
+                        <a href="https://www.linkedin.com/in/krantigirigosavi9801"> <li>LinkedIn </li></a>
+                    
+                        <a href="https://github.com/KrantiGosavi9801" class="fa fa-github">
+                        <a href="https://github.com/KrantiGosavi9801"> <li>Github </li> </a>             
+                    
+                        <a href="https://api.whatsapp.com/send?phone=7058959801" class="fa fa-whatsapp"></a>
+                        <a href="https://api.whatsapp.com/send?phone=7058959801"><li>WhatsApp</li></a>
+                        
+                        <a href="mailto:krantigirigosavi@gmail.com" class="fa fa-envelope"></a>
+                        <a href="mailto:krantigirigosavi@gmail.com"><li>Gmail</li></a>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 style="text-align: center">Contact Us</h3>
+                <p> "Desai House", 3rd Floor,
+                    <br> Beside Lucky Bazaar, Rajarampuri,
+                    <br>Kolhapur, MH, IN.416008
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3 style="text-align: center">Subscribe to Our Newsletter</h3>
+                <p>Stay updated with our latest articles.<br> Subscribe to our newsletter.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Your Blog Name. All Rights Reserved. | <a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a></p>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+            location.href = "index.html";
+        };
+    </script>
+</body>
+</html>
