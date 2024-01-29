@@ -3,6 +3,13 @@ body {
     margin: 20px;
 }
 
+header{
+    text-align: center; 
+    font-size: 30px; 
+    color: purple;
+    text-align: justify;
+}
+
 .blog-card {
     border: 1px solid #ddd;
     margin: 10px;
@@ -108,4 +115,4 @@ footer {
 
 .footer-bottom a:hover {
     text-decoration: underline;
-}
+}}
